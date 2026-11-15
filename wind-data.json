@@ -1,0 +1,88 @@
+{
+  "cities": {
+    "Toronto (City Hall)": {
+      "Ss_kPa": 0.9,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Toronto - Etobicoke": {
+      "Ss_kPa": 1.1,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Toronto - North York": {
+      "Ss_kPa": 1.2,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Toronto - Scarborough": {
+      "Ss_kPa": 1.2,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.37,
+      "q_1in50_kPa": 0.47
+    },
+    "Mississauga": {
+      "Ss_kPa": 1.1,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Mississauga (Pearson Airport)": {
+      "Ss_kPa": 1.1,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Mississauga (Port Credit)": {
+      "Ss_kPa": 0.9,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.37,
+      "q_1in50_kPa": 0.48
+    },
+    "Brampton": {
+      "Ss_kPa": 1.3,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Vaughan (Woodbridge)": {
+      "Ss_kPa": 1.1,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Markham": {
+      "Ss_kPa": 1.3,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.34,
+      "q_1in50_kPa": 0.44
+    },
+    "Hamilton": {
+      "Ss_kPa": 1.3,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.36,
+      "q_1in50_kPa": 0.46
+    },
+    "Barrie": {
+      "Ss_kPa": 2.5,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.28,
+      "q_1in50_kPa": 0.36
+    },
+    "Ottawa": {
+      "Ss_kPa": 2.4,
+      "Sr_kPa": 0.4,
+      "q_1in10_kPa": 0.32,
+      "q_1in50_kPa": 0.41
+    }
+  },
+  "notes": [
+    "SB-1 lists Toronto as four district rows and Vaughan as Vaughan (Woodbridge); Hamilton has four escarpment/airport zones whose q is identical (0.36/0.46) while Ss ranges 1.1-1.5 \u2014 the mid value 1.3 is shown for Hamilton snow reference only.",
+    "Ottawa rows in SB-1 carry Ss 2.4-2.5 by district; q is 0.32/0.41 across them.",
+    "Simplified pressure in this tool: p = Iw x q x Ce x (Cg x Cp), with user-supplied factors. This is a data lookup plus arithmetic aid, NOT a full OBC 4.1.7 / NBCC wind design \u2014 exposure, topography, internal pressure and dynamic factors must come from the Code for real design."
+  ],
+  "source": "OBC Supplementary Standard SB-1, Table 2 (2024), verified at ontario.ca 2024 Building Code Compendium SB-1, 2026-11-15"
+}
